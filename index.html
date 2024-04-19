@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 id="clock">00:00:00 AM
+        </h2>
+        <div id="box">
+        <select name="hour" id="hour">
+            <option selected hidden value="hour">H</option>
+        </select>
+        <select name="min" id="min">
+            <option selected hidden value="min">M</option>
+        </select>
+        <select name="am/pm" id="am/pm">
+        </select>
+    </div>  
+    <button onclick="setAlram()" >SET</button>
+    <!-- <audio autoplay controls src="nobody_believes_in_you,_you_lost_again_and_again_and_again(256k).mp3">hiii</audio> -->
+    </div>
+
+<div id="alramTime">
+
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
